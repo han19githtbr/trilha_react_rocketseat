@@ -19,10 +19,10 @@ export function NewNoteCard() {
         }
     }
 
-
     function handleSaveNote(event: FormEvent) {
         event.preventDefault()
 
+        console.log(content)
         toast.success('Nota criada com sucesso!')
     }
 
@@ -78,9 +78,6 @@ export function NewNoteCard() {
                     </form>
                 </Dialog.Content>
             </Dialog.Portal>
-
-
-        
         </Dialog.Root>
     )
 }
