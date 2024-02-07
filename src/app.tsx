@@ -66,6 +66,10 @@ export function App() {
       
           <NewNoteCard />  
           <NoteCard note={note} />
+          <NoteCard note={note} />
+          <NoteCard note={note} />
+          <NoteCard note={note} />
+          <NoteCard note={note} />
              
       </div>
     </div>
