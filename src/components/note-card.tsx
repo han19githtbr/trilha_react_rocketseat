@@ -49,7 +49,7 @@ export function NoteCard({ note, onNoteDeleted }: NoteCardProps) {
                                         bg-slate-700
                                         md:rounded-md flex flex-col
                                         outline-none'>
-                <Dialog.Close className='absolute right-0 top-0 hover:bg-red-700 bg-slate-800 text-slate-500'>
+                <Dialog.Close className='absolute right-0 top-0 hover:bg-red-700 bg-slate-800 text-slate-500 animate-pulse'>
                     <X />
                 </Dialog.Close>
 
@@ -71,7 +71,7 @@ export function NoteCard({ note, onNoteDeleted }: NoteCardProps) {
                         text-sm text-slate-300
                         outline-none 
                         font-medium group'>
-                    Deseja <span className='text-red-400 group-hover:underline'>apagar essa nota?</span>
+                    Deseja <span className='text-red-400 group-hover:underline animate-pulse'>apagar essa nota?</span>
                 </button>
             </Dialog.Content>
         </Dialog.Portal>

@@ -114,7 +114,7 @@ export function NewNoteCard({ oneNoteCreated }: NewNoteCardProps) {
                                             bg-slate-700
                                             md:rounded-md flex flex-col
                                             outline-none'>
-                    <Dialog.Close className='absolute right-0 top-0 hover:bg-red-700 bg-slate-800 text-slate-500'>
+                    <Dialog.Close className='absolute right-0 top-0 hover:bg-red-700 bg-slate-800 text-slate-500 animate-pulse'>
                         <X />
                     </Dialog.Close>
 
@@ -167,7 +167,7 @@ export function NewNoteCard({ oneNoteCreated }: NewNoteCardProps) {
                               text-black 
                                 outline-none 
                                 font-medium 
-                              hover:bg-blue-800'>
+                              hover:bg-blue-800 animate-pulse '>
                             
                                 Salvar nota
                             </button>

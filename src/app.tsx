@@ -59,7 +59,7 @@ export function App() {
 
   return (
     <div className='mx-auto max-w-6xl my-12 space-y-6 px-5'>
-      <img src = {logo} alt = "NLW Expert" />
+      <img className='animate-pulse' src = {logo} alt = "NLW Expert" />
       
       <div className="my-4 w-72 relative h-11 min-w-[200px]">
         <input placeholder="Busque em suas notas"
