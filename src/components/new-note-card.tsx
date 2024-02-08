@@ -59,7 +59,7 @@ export function NewNoteCard({ oneNoteCreated }: NewNoteCardProps) {
 
         speechRecognition = new SpeechRecognitionAPI()
 
-        speechRecognition.lang = 'fr'
+        speechRecognition.lang = 'pt-BR'
         
         speechRecognition.continuous = true
         speechRecognition.maxAlternatives = 1
@@ -153,7 +153,7 @@ export function NewNoteCard({ oneNoteCreated }: NewNoteCardProps) {
                                 flex itens-center 
                                 justify-center gap-2'
                             >
-                                <div className='size-3 rounded-full bg-red-500 my-1 animate-pulse' />
+                                <div className='size-3 rounded-full bg-red-500 my-1 animate-ping' />
                                 Gravando! (clique p/ interromper)
                             </button>
                         ) : (
@@ -167,8 +167,8 @@ export function NewNoteCard({ oneNoteCreated }: NewNoteCardProps) {
                               text-black 
                                 outline-none 
                                 font-medium 
-                              hover:bg-blue-800'
-                            >
+                              hover:bg-blue-800'>
+                            
                                 Salvar nota
                             </button>
                         ) }
