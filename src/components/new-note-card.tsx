@@ -59,7 +59,7 @@ export function NewNoteCard({ oneNoteCreated }: NewNoteCardProps) {
 
         speechRecognition = new SpeechRecognitionAPI()
 
-        speechRecognition.lang = 'pt-BR'
+        speechRecognition.lang = 'fr'
         
         speechRecognition.continuous = true
         speechRecognition.maxAlternatives = 1
